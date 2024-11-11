@@ -44,7 +44,7 @@ body {
 
 /* Image container for Hero */
 .pic {
-    background-image: url('https://th.bing.com/th/id/R.0a4d94b23f386c887f4a2236409edbf9?rik=q09IyvUG6d8ljA&pid=ImgRaw&r=0');
+    background-image: url('assets/images/hero1.png');
     background-size: 260px 260px;
     background-repeat: no-repeat;
     width: 230px;
