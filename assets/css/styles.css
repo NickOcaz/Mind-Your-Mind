@@ -20,7 +20,7 @@
 
 /* container for hero section */
 .container-wrapper {
-    background-image: url("assets/images/hero1.png");
+    background-image: url("/assets/images/hero1.png");
     background-size: cover; /* Ensures the image covers the entire container */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image within the container */
@@ -30,6 +30,10 @@
     flex-wrap: wrap;
     border-radius: 0 100px 0 100px;
     overflow: hidden;
+}
+.container-wrapper {
+    color: aliceblue;
+font-size: 3vh;
 }
 
 /* Section for hero */
@@ -61,7 +65,7 @@
 }
 
 .pic {
-    background-image: url("assets/images/hero1.png");
+    background-image: url("/assets/images/hero1.png");
     background-size: 260px 260px;
     background-repeat: no-repeat;
     background-color: aquamarine;
