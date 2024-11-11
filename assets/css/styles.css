@@ -13,8 +13,8 @@ body {
 /* container for hero section */
 .container-wrapper {
     background-image: url("/assets/images/hero1.png");
-    object-fit: contain;
-    background-size: 100% auto;
+    object-fit: cover;
+    background-size: auto 100%;
     margin-bottom: 200px;
     background-color: #c9e3f5;
     display: flex;
@@ -31,6 +31,7 @@ body {
     height: auto;
     text-align: center;
     flex-grow: 1;
+    border: 5px solid blue;
 }
 
 
@@ -43,14 +44,24 @@ body {
 }
 
 /* Image container for Hero */
+.pic-flex {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    border: 5px solid red;
+    
+    
+}
+
 .pic {
-    background-image: url('https://th.bing.com/th/id/R.0a4d94b23f386c887f4a2236409edbf9?rik=q09IyvUG6d8ljA&pid=ImgRaw&r=0');
+    background-image: url('/assets/images/hero1.png');
     background-size: 260px 260px;
     background-repeat: no-repeat;
     width: 230px;
     height: 230px;
     border-radius: 150px;
-    padding-left:103px;
+   
     margin-bottom: 1rem;
 }
 
@@ -70,6 +81,7 @@ body {
     .pic {
         margin-left: auto;
         margin-right: auto;
+        align-items: center;
         margin-bottom: 1rem;
     }
 
@@ -85,31 +97,37 @@ body {
         }
 
 /* Media queries */
-        @media screen and (min-width: 700px) {
-            .container-wrapper {
-    margin-bottom: 90px;
-            }
-        }
 
- 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
 
-
+    .container-wrapper {
+        margin-bottom: 90px;
+    }
+body {
+    background-color: black;
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    body {
+        background-color: white;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    body {
+        background-color: black;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    body {
+        background-color: white;
+    }
 
 }
