@@ -12,9 +12,10 @@ body {
 
 /* container for hero section */
 .container-wrapper {
-    background-image: url("/assets/images/hero1.png");
+   /* background-image: url("/assets/images/hero1.png");
     object-fit: contain;
-    background-size: 100% auto;
+    background-size: auto 100%;
+    */
     margin-bottom: 200px;
     background-color: #c9e3f5;
     display: flex;
@@ -44,7 +45,7 @@ body {
 
 /* Image container for Hero */
 .pic {
-    background-image: url('assets/images/hero1.png');
+    background-image: url('/assets/images/hero-temp.jpg');
     background-size: 260px 260px;
     background-repeat: no-repeat;
     width: 230px;

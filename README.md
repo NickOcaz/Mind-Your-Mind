@@ -96,7 +96,9 @@ A.I. will be utilised throughout this project's development to enhance efficienc
 
 [Back to Top](#Top)
 ---
-#### Wireframe
+#### Wireframe design.
+![Local Image](/assets/images/readme-images/wireframe.png "Local Image Title")
+
 
 [Back to Top](#Top)
 ---
