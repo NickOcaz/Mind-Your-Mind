@@ -1,21 +1,18 @@
 /* css variables */
 :root {
-
     --example-variable: value;
-
 }
-
 
 /* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 /* container for hero section */
 .container-wrapper {
-/*background-image: url("../images/pexel-image.jpg");*/
+    background-image: url("../images/pexel-image.jpg");
     background-size: cover; 
     background-color: rgb(223, 139, 101);
     background-repeat: no-repeat; 
@@ -26,21 +23,15 @@
     flex-wrap: wrap;
     border-radius: 0 100px 0 100px;
     overflow: hidden;
-}
-
-.container-wrapper {
     color: aliceblue;
-font-size: 3vh;
+    font-size: 3vh;
 }
-
-
 
 /* Section for hero */
 .box1 {
-  
     align-content: center;
     flex-grow: 1;
-    width:50%
+    width: 50%;
 }
 
 .box2 {
@@ -48,8 +39,7 @@ font-size: 3vh;
     align-content: center;
     flex-grow: 1;
     padding-left: 50px;
-    
-   }
+}
 
 .box-width-full {
     min-width: 100%;
@@ -59,13 +49,12 @@ font-size: 3vh;
 }
 
 .logo {
-    
     background-size: 20px 20px;
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
-     opacity: 0.5;
-     margin: auto;
+    opacity: 0.5;
+    margin: auto;
     display: block;
 }
 
@@ -100,135 +89,126 @@ font-size: 3vh;
     margin: 0 auto;
     color: black;
     font-size: 2vh;
-
 }
 
-#section-1{
-    margin-top:2rem;
+#section-1 {
+    margin-top: 2rem;
     color: rgb(145, 65, 0);
 }
+
 .section1, h2 {
     margin-bottom: 1rem;
-
-margin-top: 2rem;
-background-color: rgb(252, 211, 194);
-margin-left: auto;
+    margin-top: 2rem;
+    background-color: rgb(252, 211, 194);
+    margin-left: auto;
 }
 
 #section2 {
-    margin-top:2rem;
+    margin-top: 2rem;
     color: rgb(145, 65, 0);
     text-align: center;
     /*background-color: rgb(255, 241, 235);*/
-  
 }
 
 .carousel {
-   
     background-color: rgb(255, 236, 228);
     font-style: oblique;
     font-size: 3vh;
 }
 
 /* Recognise the signs containers */
-
-#sympton-container {
-    display:flex;
+#symptom-container {
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    margin-top:2rem;
-
+    margin-top: 2rem;
 }
+
 #symptom1 {
-border: 5px solid rgb(27, 1, 88);
-height:400px;
-width: 300px;
-border-radius: 30px 0 30px 0;
+    border: 5px solid rgb(27, 1, 88);
+    height: 400px;
+    width: 300px;
+    border-radius: 30px 0 30px 0;
 }
 
-#symtom2 {
+#symptom2 {
     border: 5px solid rgb(60, 14, 167);
-    height:400px;
+    height: 400px;
     width: 300px;
     border-radius: 0 30px 0 30px;
-    }
+}
 
-    #sypmtom3 {
-        border: 5px solid rgb(140, 92, 250);
-        height:400px;
-        width: 300px;
-        border-radius: 30px 0 30px 0;
-        }
-    
+#symptom3 {
+    border: 5px solid rgb(140, 92, 250);
+    height: 400px;
+    width: 300px;
+    border-radius: 30px 0 30px 0;
+}
 
 /* Self help containers */
 #signs-container {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    margin-top:2rem;
+    margin-top: 2rem;
     border: 4px solid rgb(255, 241, 235);
 }
 
-
 .signs {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    margin-top:2rem;
-
+    margin-top: 2rem;
 }
 
 #tip-container {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
-    margin-top:2rem;
-    margin-left:5rem;
-    margin-right:5rem;
-
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
+
 #tip1 {
-border: 5px solid rgb(255, 73, 1);
-height:500px;
-width: 300px;
-border-radius: 30px 0 30px 0;
+    border: 5px solid rgb(255, 73, 1);
+    height: 500px;
+    width: 300px;
+    border-radius: 30px 0 30px 0;
 }
 
 #tip2 {
     border: 5px solid rgb(145, 43, 3);
-    height:500px;
+    height: 500px;
     width: 300px;
     border-radius: 0 30px 0 30px;
-    }
+}
 
-    ul {
-        list-style-type: none;
-        padding-left: 0;
-        margin-top: 2rem;
-    }
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 2rem;
+}
 
-    #tip3 {
-        border: 5px solid rgb(70, 20, 0);
-        height:500px;
-        width: 300px;
-        border-radius: 30px 0 30px 0;
-        }
-    
-        .form-container {
-            width: 80%;
-          margin: auto;     
-        }
+#tip3 {
+    border: 5px solid rgb(70, 20, 0);
+    height: 500px;
+    width: 300px;
+    border-radius: 30px 0 30px 0;
+}
 
-     
+.form-container {
+    width: 80%;
+    margin: auto;
+}
+
 .footer {
     background-color: #d38541;
-   
-    color:#493e35;
+    color: #493e35;
     font-size: 2vh;
 }
 
@@ -236,9 +216,7 @@ border-radius: 30px 0 30px 0;
     font-size: 4vh;
 }
 
-
 /* Media queries */
-
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) {
@@ -258,9 +236,8 @@ border-radius: 30px 0 30px 0;
         background-size: 300px 300px;
         width: 300px;
         height: 300px;
-        border-radius: 150px;  
+        border-radius: 150px;
     }
-    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -278,17 +255,13 @@ border-radius: 30px 0 30px 0;
         background-size: 350px 350px;
         width: 350px;
         height: 350px;
-        border-radius: 175px;  
+        border-radius: 175px;
     }
-    
-    
-
-.box2 {
-    text-align: center;
-    font-size: 2.8vh;
-    padding-left:2rem;
-}
-
+    .box2 {
+        text-align: center;
+        font-size: 2.8vh;
+        padding-left: 2rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -300,40 +273,19 @@ border-radius: 30px 0 30px 0;
         background-size: 460px 460px;
         width: 430px;
         height: 430px;
-        border-radius: 215px;  
+        border-radius: 215px;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-   
-
-
-    /*resize the hero image */
     .image-hero {
         background-size: 460px 460px;
         width: 430px;
         height: 430px;
-        border-radius: 215px;  
-    }
-    .box2 {
-        text-align: right;
-    }
-
-    @media only screen and (min-width: 1200px) {
-   
-
-
-    /*resize the hero image */
-    .image-hero {
-        background-size: 460px 460px;
-        width: 430px;
-        height: 430px;
-        border-radius: 215px;  
+        border-radius: 215px;
     }
     .box2 {
         text-align: right;
     }
 }
-
-
