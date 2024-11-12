@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*
 .page-wrapper {
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
     padding: 2rem;
     margin: 0;
 }
-
+*/
 /* container for hero section */
 .container-wrapper {
     background-image: url("../images/hero1.png");
@@ -35,6 +35,8 @@
     color: aliceblue;
 font-size: 3vh;
 }
+
+
 
 /* Section for hero */
 .box1 {
@@ -54,6 +56,26 @@ font-size: 3vh;
     align-content: flex-end;
     text-align: center;
     color: azure;
+}
+
+.logo {
+    
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+     opacity: 0.5;
+     margin: auto;
+    display: block;
+}
+
+.logo-about {
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2rem;
+ 
 }
 
 /* Image container for Hero */
@@ -86,9 +108,12 @@ font-size: 3vh;
 #section-1{
     margin-top:2rem;
     color: rgb(145, 65, 0);
-    text-align: center;
 }
-
+.section1, h2 {
+    margin-bottom: 1rem;
+    text-align: left;
+margin
+}
 
 #section2 {
     margin-top:2rem;
