@@ -46,6 +46,8 @@ font-size: 3vh;
     text-align: right;
     align-content: center;
     flex-grow: 1;
+    padding-left: 50px;
+    
    }
 
 .box-width-full {
@@ -116,7 +118,7 @@ margin-left: auto;
     margin-top:2rem;
     color: rgb(145, 65, 0);
     text-align: center;
-    background-color: rgb(255, 241, 235);
+    /*background-color: rgb(255, 241, 235);*/
   
 }
 
@@ -160,6 +162,24 @@ border-radius: 30px 0 30px 0;
     
 
 /* Self help containers */
+#signs-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top:2rem;
+    border: 4px solid rgb(255, 241, 235);
+}
+
+
+.signs {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top:2rem;
+
+}
 
 #tip-container {
     display:flex;
@@ -171,21 +191,27 @@ border-radius: 30px 0 30px 0;
 }
 #tip1 {
 border: 5px solid rgb(255, 73, 1);
-height:400px;
+height:500px;
 width: 300px;
 border-radius: 30px 0 30px 0;
 }
 
 #tip2 {
     border: 5px solid rgb(145, 43, 3);
-    height:400px;
+    height:500px;
     width: 300px;
     border-radius: 0 30px 0 30px;
     }
 
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+
     #tip3 {
         border: 5px solid rgb(70, 20, 0);
-        height:400px;
+        height:500px;
         width: 300px;
         border-radius: 30px 0 30px 0;
         }
@@ -223,6 +249,8 @@ i :hover {
     .box2 {
         text-align: center;
         font-size: 2.5vh;
+        padding-left: 0;
+        padding-right: 0;
     }
     .image-hero {
         background-size: 300px 300px;
@@ -256,6 +284,7 @@ i :hover {
 .box2 {
     text-align: center;
     font-size: 2.8vh;
+    padding-left:2rem;
 }
 
 }
