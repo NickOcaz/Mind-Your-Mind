@@ -1,279 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mind Your Mind</title>
-    <meta name="description" content="Mind Your Mind is a platform dedicated to promoting mental well-being through accessible and beginner-friendly information. Discover resources to help manage stress, anxiety, and depression.">
-    <meta name="keywords" content="mental health, well-being, stress management, anxiety, depression, mental health resources">
-    <meta name="author" content="Nick O'Carroll">
-    <!-- Favicons -->
+    <meta name="description"
+        content="Mind Your Mind is a platform dedicated to promoting mental well-being through accessible and beginner-friendly information. Discover resources to help manage stress, anxiety, and depression.">
+    <meta name="keywords"
+        content="mental health, well-being, stress management, anxiety, depression, mental health resources">
+    <meta name="Nick O'Carroll" content="Mind Your Mind">
+    <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <!-- Install Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- Link to CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Link to css -->
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
-
 <body class="d-flex flex-column min-vh-100">
-    <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html" title="Mind Your Mind home page" aria-label="Mind Your Mind home page">Mind Your Mind</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-label="Identify mental health problems" href="#sign-link">Symptoms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-label="Tips for better health" href="#tips-link">Self Help</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-label="Resources for Mental Health" href="#resource-link">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link" title="Contact Us" aria-label="Contact Us">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+</body> <!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" title="Mind Your Mind home page" aria-label="Contact Us">Mind Your
+            Mind</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-label="Identify mental health problems"
+                        href="#sign-link">Symptoms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-label="Tips for better health" href="#tips-link">Self Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-label="Resouces for Mental Health" href="#resource-link">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link" title="Contact Us" aria-label="Contact Us">Contact
+                        Us</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+<main>
+    <!-- Hero section -->
+    <section id="hero" class="d-flex align-items-center">
 
-    <main>
-        <!-- Hero section -->
-        <section id="hero" class="d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 d-flex flex-column justify-content-center text-center">
-                        <h1 class="text-center">Welcome to Mind Your Mind</h1>
-                        <h2 class="text-center">Your journey to better mental health starts here</h2>
-                        <a href="contact.html" class="btn btn-primary mt-3" title="Contact Us" aria-label="Contact Us">Contact Us</a>
-                    </div>
-                    <div class="col-lg-6 hero-img">
-                        <img src="assets/images/logo-500px.png" class="img-fluid" alt="Hero Image" title="Hero Image" aria-label="Hero Image">
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center text-center">
+                    <h1 class="text-center">Welcome to Mind Your Mind</h1>
+                    <h2 class="text-center">Your journey to better mental health starts here</h2>
+                    <a href="contact.html" class="btn btn-primary mt-3" title="Contact Us"
+                        aria-label="Contact Us">Contact Us</a>
                 </div>
-                <!-- Bootstrap Grid for stats -->
-                <div class="row mt-4">
-                    <div class="col-12 text-center">
-                        <h3>YOU ARE NOT ALONE</h3>
-                    </div>
-                    <div class="col-6 text-center">
-                        <p class="text-white">In any given week, around 1 in 6 people report experiencing a common mental health problem, such as anxiety or depression.</p>
-                    </div>
-                    <div class="col-6 text-center">
-                        <p class="text-white">1 in 4 people will experience a mental health problem of some kind each year in England</p>
-                    </div>
+                <div class="col-lg-6 hero-img">
+                    <img src="assets/images/logo-500px.png" class="img-fluid" alt="Hero Image" title="Hero Image"
+                        aria-label="Hero Image">
                 </div>
             </div>
-        </section>
-    </main>
-
-    <!-- About us Bootstrap grid -->
-    <section id="section-1">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <img src="assets/images/logo-500px.png" alt="Mind Your Mind logo" class="logo-about">
+            <!-- Bootstrap Grid for stats -->
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <h3>YOU ARE NOT ALONE</h3>
                 </div>
-                <div class="col-12 col-md-6">
-                    <h2>About us</h2>
-                    <p>Welcome to Mind Your Mind, a thoughtfully designed web application focused on promoting mental well-being through accessible and beginner-friendly information. Our platform is dedicated to providing users with essential mental health resources, helping you recognize common issues, manage stress effectively, and access further support.</p>
+                <div class="col-6 text-center">
+                    <p class="text-white">In any given week, around 1 in 6 people report experiencing a common mental
+                        health problem, such as anxiety or depression.</p>
                 </div>
-                <div class="col-6"></div>
-                <div class="col-12 mt-4">
-                    <!-- Bootstrap carousel -->
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                "It's okay to take care of myself; I deserve to prioritize my mental well-being."
-                            </div>
-                            <div class="carousel-item">
-                                "I am resilient and can overcome any challenge that comes my way."
-                            </div>
-                            <div class="carousel-item">
-                                "I am worthy of love, respect, and kindness."
-                            </div>
-                            <div class="carousel-item">
-                                "Each day is a fresh start, filled with new opportunities for growth and healing."
-                            </div>
-                            <div class="carousel-item">
-                                "I am strong enough to face my fears and continue moving forward."
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                <div class="col-6 text-center">
+                    <p class="text-white">1 in 4 people will experience a mental health problem of some kind each year
+                        in England</p>
                 </div>
             </div>
         </div>
     </section>
+</main>
+<!-- About us Bootstrap grid -->
+<section id="section-1">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img src="assets/images/logo-500px.png" alt="Mind You Mind logo" class="logo-about">
+            </div>
+            <div class="col-12 col-md-6">
+                <h2>About us</h2>
+                <p>Welcome to Mind Your Mind, a thoughtfully designed web application focused on promoting mental
+                    well-being through accessible and beginner-friendly information. Our platform is dedicated to
+                    providing users with essential mental health resources, helping you recognize common issues,
+                    manage
+                    stress effectively, and access further support.
+                <p>
+            </div>
+            <div class="col-6 "></div>
+            <div class="col-12 mt-4">
+                <!-- Bootstrap carousel -->
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            "It's okay to take care of myself; I deserve to prioritize my mental well-being."
+                        </div>
+                        <div class="carousel-item">
+                            "I am resilient and can overcome any challenge that comes my way."
+                        </div>
+                        <div class="carousel-item">
+                            "I am worthy of love, respect, and kindness."
+                        </div>
+                        <div class="carousel-item">
+                            "Each day is a fresh start, filled with new opportunities for growth and healing."
+                        </div>
+                        <div class="carousel-item">
+                            "I am strong enough to face my fears and continue moving forward."
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Better Living -->
+<div id="sign-link"></div>
+<section id="section2">
+    <h2>Recognise the signs</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-content">
+                    <p>Recognizing common mental health issues such as anxiety, depression, and stress is vital for
+                        maintaining
+                        overall well-being. These issues can manifest in various ways, including persistent sadness,
+                        excessive worry, or
+                        difficulty sleeping. It's crucial to notice these signs early, as they can significantly impact
+                        our daily
+                        lives if left unaddressed. Seeking help from mental health professionals can provide essential
+                        support and
+                        guidance. Alongside professional help, adopting healthy lifestyle practices like regular
+                        exercise, mindfulness, and
+                        nurturing relationships can make a big difference. By paying attention to our mental health, we
+                        take the
+                        first step toward a healthier, more balanced life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="recognise signs"></div>
+    <!-- container 1 -->
+    <div id="tip-container">
+        <div class="sign">
+            <h4>Physical symptoms</h4>
+            <img src="assets/images/physical-symptoms250px.webp"
+                alt="Illustration showing physical symptoms related to mental health" title="Physical Symptoms"
+                aria-label="Physical Symptoms">
+            <ul>
+                <li>Headaches or dizziness</li>
+                <li>Muscle tension or pain</li>
+                <li>Stomach problems</li>
+                <li>Chest pain or a faster heartbeat</li>
+                <li>Sexual problems</li>
+            </ul>
+        </div>
+        <!-- container 2 -->
+        <div class="sign">
+            <h4> Mental symptoms</h4>
 
-    <!-- Better Living -->
-    <div id="sign-link"></div>
-    <section id="section2">
-        <h2>Recognise the signs</h2>
+            <img src="assets/images/mental-symptoms250px.webp"
+                alt="Illustration showing mental symptoms related to mental health" title="Mental Symptoms"
+                aria-label="Mental Health Symptoms">
+            <ul>
+                <li>Difficulty concentrating</li>
+                <li>Struggling to make decisions</li>
+                <li>Feeling overwhelmed</li>
+                <li>Constantly worrying</li>
+                <li>Being forgetful</li>
+        </div>
+        <!-- container 2 -->
+        <div class="sign">
+            <h4> Changes in behaviour</h4>
+            <img src="assets/images/mental-behavior.webp"
+                alt="Illustration showing changes in behavior related to mental health" title="Changes in Behavior"
+                aria-label="Changes in Behavior">
+            <ul>
+                <li>Being irritable and snappy</li>
+                <li>Sleeping too much or too little</li>
+                <li>Eating too much or too little</li>
+                <li>Avoiding certain places or people</li>
+                <li>Drinking or smoking more</li>
+            </ul>
+        </div>
+    </div>
+   
+    <h2>Tips for better living</h2>
+    <!-- container 1 -->
+    <h2>Tips for better living</h2>
+    <!-- container 1 -->
+    <div id="tip-paragraph">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="text-content">
-                        <p>Recognizing common mental health issues such as anxiety, depression, and stress is vital for maintaining overall well-being. These issues can manifest in various ways, including persistent sadness, excessive worry, or difficulty sleeping. It's crucial to notice these signs early, as they can significantly impact our daily lives if left unaddressed. Seeking help from mental health professionals can provide essential support and guidance. Alongside professional help, adopting healthy lifestyle practices like regular exercise, mindfulness, and nurturing relationships can make a big difference. By paying attention to our mental health, we take the first step toward a healthier, more balanced life.</p>
+                        <p>Recognizing when our mental health might be taking a hit is essential. It's important to
+                            remember that even though professional help is invaluable, there are steps we can take ourselves to ease
+                            the burden. Small changes like staying active, eating well, taking time to relax, and leaning on friends and
+                            family for support can make a big difference. Taking care of our mental health is a journey, and every positive
+                            step counts.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="recognise-signs"></div>
-        <!-- container 1 -->
-        <div class="tip-container">
-            <div class="sign">
-                <h4>Physical symptoms</h4>
-                <img src="assets/images/physical-symptoms250px.webp" alt="Illustration showing physical symptoms related to mental health" title="Physical Symptoms" aria-label="Physical Symptoms">
-                <ul>
-                    <li>Headaches or dizziness</li>
-                    <li>Muscle tension or pain</li>
-                    <li>Stomach problems</li>
-                    <li>Chest pain or a faster heartbeat</li>
-                    <li>Sexual problems</li>
-                </ul>
-            </div>
-            <!-- container 2 -->
-            <div class="sign">
-                <h4>Mental symptoms</h4>
-                <img src="assets/images/mental-symptoms250px.webp" alt="Illustration showing mental symptoms related to mental health" title="Mental Symptoms" aria-label="Mental Health Symptoms">
-                <ul>
-                    <li>Difficulty concentrating</li>
-                    <li>Struggling to make decisions</li>
-                    <li>Feeling overwhelmed</li>
-                    <li>Constantly worrying</li>
-                    <li>Being forgetful</li>
-                </ul>
-            </div>
-            <!-- container 2 -->
-            <div class="sign">
-                <h4>Changes in behaviour</h4>
-                <img src="assets/images/mental-behavior.webp" alt="Illustration showing changes in behavior related to mental health" title="Changes in Behavior" aria-label="Changes in Behavior">
-                <ul>
-                    <li>Being irritable and snappy</li>
-                    <li>Sleeping too much or too little</li>
-                    <li>Eating too much or too little</li>
-                    <li>Avoiding certain places or people</li>
-                    <li>Drinking or smoking more</li>
-                </ul>
-            </div>
-        </div>
-        <div id="tips-link"></div>
-        <h2>Tips for better living</h2>
-        <!-- container 1 -->
-        <div id="tip-paragraph">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="text-content">
-                            <p>Recognizing when our mental health might be taking a hit is essential. It's important to remember that even though professional help is invaluable, there are steps we can take ourselves to ease the burden. Small changes like staying active, eating well, taking time to relax, and leaning on friends and family for support can make a big difference. Taking care of our mental health is a journey, and every positive step counts.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="tip-container">
-            <div class="sign">
-                <h4>Stay Active</h4>
-                <img src="assets/images/active250px.webp" alt="Illustration showing active lifestyle" title="Stay Active" aria-label="Stay Active">
-                <ul>
-                    <li>Exercise Regularly</li>
-                    <li>Join a Sports Club</li>
-                    <li>Practice Yoga</li>
-                    <li>Dance</li>
-                    <li>Outdoor Activities</li>
-                </ul>
-            </div>
-            <!-- container 2 -->
-            <div class="sign">
-                <h4>Practice Mindfulness</h4>
-                <img src="assets/images/mindful250px.webp" alt="Illustration showing mindfulness practices" title="Practice Mindfulness" aria-label="Practice Mindfulness">
-                <ul>
-                    <li>Practice daily mindfulness.</li>
-                    <li>Controlled breathing reduces stress.</li>
-                    <li>Write down thoughts and feelings.</li>
-                    <li>Visualize calming scenarios.</li>
-                    <li>Write down three daily gratitudes.</li>
-                </ul>
-            </div>
-            <div class="sign">
-                <h4>Nurture Relationships</h4>
-                <img src="assets/images/nurture250px.webp" alt="Illustration showing nurturing relationships" title="Nurture Relationships" aria-label="Nurture Relationships">
-                <ul>
-                    <li>Catch-ups with friends and family.</li>
-                    <li>Join a Support Group: Share experiences</li>
-                    <li>Engage in community service.</li>
-                    <li>Plan activities with family.</li>
-                    <li>Join online social groups.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    </div>
+    <div id="tip-container">
 
-    <!-- Resources section -->
-    <div id="resource-link"></div>
-    <section id="section2">
-        <div class="container">
-            <h2>Resources</h2>
-            <div class="text-content">
-                <p>Taking care of your mental health is really important. Whether you're looking after yourself or know someone who might need support, the resources in the links below can be very helpful. They offer easy-to-understand information, tips, and tools to improve mental well-being. Don't hesitate to explore these resources—they can make a big difference for you or someone you care about.</p>
+        <div class="sign">
+            <h4>Stay Active</h4>
+            <img src="assets/images/active250px.webp" alt="Illustration showing active lifestyle" title="Stay Active"
+                aria-label="Stay Active">
+            <ul>
+                <li>Exercise Regularly</li>
+                <li>Join a Sports Club</li>
+                <li>Practice Yoga</li>
+                <li>Dance</li>
+                <li>Outdoor Activities</li>
+            </ul>
+        </div>
+        <!-- container 2 -->
+        <div class="sign">
+            <h4>Practice Mindfulness</h4>
+            <img src="assets/images/mindful250px.webp" alt="Illustration showing mindfulness practices"
+                title="Practice Mindfulness" aria-label="Practice Mindfulness">
+            <ul>
+                <li>Practice daily mindfulness.</li>
+                <li>Controlled breathing reduces stress.</li>
+                <li>Write down thoughts and feelings.</li>
+                <li>Visualize calming scenarios.</li>
+                <li>Write down three daily gratitudes.</li>
+            </ul>
+        </div>
+        <div class="sign">
+            <h4>Nurture Relationships</h4>
+            <img src="assets/images/nurture250px.webp">
+            <ul>
+                <li>Catch-ups with friends and family.</li>
+                <li>Join a Support Group: Share experiences</li>
+                <li>Engage in community service.</li>
+                <li>Plan activities with family.</li>
+                <li>Join online social groups.</li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Resources section -->
+<div id="resource-link"></div>
+<section id="section2">
+    <div class="container">
+        <h2>Resources</h2>
+        <div class="text-content">
+            <p st>
+                Taking care of your mental health is really important. Whether you're looking after yourself or know
+                someone who might need support, the resources in the links below can be very helpful. They offer
+                easy-to-understand information, tips, and tools to improve mental well-being. Don't hesitate to explore
+                these resources—they can make a big difference for you or someone you care about.
+            </p>
+        </div>
+        <div class="resources">
+            <div class="row my-4">
+                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
+                    style="height: 200px;">
+                    <a href="https://www.mind.org.uk/" title="Mind.org" aria-label="Mind.org" target="_blank"
+                        rel="noopener noreferrer" style="color: orangered; text-decoration: none;">Mind.org</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
+                    style="height: 200px;">
+                    <a href="https://www.nhs.uk/every-mind-matters/" title="NHS: Every Mind Matters"
+                        aria-label="NHS: Every Mind Matters" target="_blank" rel="noopener noreferrer"
+                        style="color: orangered">NHS: Every Mind
+                        Matters</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
+                    style="height: 200px;">
+                    <a href="https://web1.mentalhealth.org.uk//" title="Mental Heaths Foundation"
+                        aria-label="Mental Heaths Foundation" target="_blank" rel="noopener noreferrer"
+                        style="color: orangered; text-decoration: none;">Mental Heaths Foundation"</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
+                    style="height: 200px;">
+                    <a href="https://sandyhealthcentre.nhs.uk/practice-information/a-z-list-of-organisations-for-mental-health/"
+                        title="A-Z List of organisations for Mental Health"
+                        aria-label="A-Z List of organisations for Mental Health" target="_blank"
+                        rel="noopener noreferrer" style="color: orangered">A-Z List of organisations for Mental
+                        Health</a>
+                </div>
             </div>
-            <div class="resources">
-                <div class="row my-4">
-                    <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-                        <a href="https://www.mind.org.uk/" title="Mind.org" aria-label="Mind.org" target="_blank" rel="noopener noreferrer" style="color: orangered; text-decoration: none;">Mind.org</a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-                        <a href="https://www.nhs.uk/every-mind-matters/" title="NHS: Every Mind Matters" aria-label="NHS: Every Mind Matters" target="_blank" rel="noopener noreferrer" style="color: orangered">NHS: Every Mind Matters</a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-                        <a href="https://web1.mentalhealth.org.uk/" title="Mental Health Foundation" aria-label="Mental Health Foundation" target="_blank" rel="noopener noreferrer" style="color: orangered; text-decoration: none;">Mental Health Foundation</a>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center" style="height: 200px;">
-                        <a href="https://sandyhealthcentre.nhs.uk/practice-information/a-z-list-of-organisations-for-mental-health/" title="A-Z List of organisations for Mental Health" aria-label="A-Z List of organisations for Mental Health" target="_blank" rel="noopener noreferrer" style="color: orangered">A-Z List of organisations for Mental Health</a>
-                    </div>
+</section>
+<!-- Footer -->
+<footer>
+    <div class="container text-center footer">
+        <div class="row">
+            <div class="col-12">
+                2024 Mind Your Mind.
+            </div>
+            <div class="col-12">
+                <div>
+                    <span class="me-5"><i class="fa-brands fa-facebook" aria-label="Link to Facebook"></i></span>
+                    <span class="me-5"><i class="fa-brands fa-twitter" aria-label="Link to Twitter"></i></span>
+                    <span class="me-5"><i class="fa-brands fa-instagram" aria-label="Link to Instagram"></i></span>
+                    <span class="me-5"><i class="fa-brands fa-github" aria-label="Link to GitHub"></i></span>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center footer">
-            <div class="row">
-                <div class="col-12">
-                    2024 Mind Your Mind.
-                </div>
-                <div class="col-12">
-                    <div>
-                        <span class="me-5"><i class="fa-brands fa-facebook" aria-label="Facebook"></i></span>
-                        <span class="me-5"><i class="fa-brands fa-twitter" aria-label="Twitter"></i></span>
-                        <span class="me-5"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></span>
-                        <span class="me-5"><i class="fa-brands fa-github" aria-label="GitHub"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Resources utilised -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/26c138a8b0.js" crossorigin="anonymous"></script>
+    </div>
+</footer>
+<!-- Resources utilised -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/26c138a8b0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
