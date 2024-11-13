@@ -182,6 +182,8 @@ British Dyslexia Association - *[Dyslexia friendly style guide - British Dyslexi
 
 **NHS** - [Stree](https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/stress/)
 
+**Windows Alt Codes for Special Characters, Signs & Symbols** - [Alt Code Unicode](https://altcodeunicode.com/)
+
 [Back to Top](#Top)
 ---
 ### Media

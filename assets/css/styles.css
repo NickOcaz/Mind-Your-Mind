@@ -1,7 +1,32 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
 /* css variables */
 :root {
     --example-variable: value;
 }
+
+body {
+  
+    background-color: #e9fff9;
+   
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color:#db4b13
+}
+
+p {
+    font-family: 'Mona Sans', sans-serif;
+    font-size: 1.2rem;
+    color:#003b2a
+}
+
 
 /* CSS Reset */
 * {
@@ -17,14 +42,8 @@
 }
 
 
-
-
-
 /*  hero section */
 
-#hero {
-    padding: 60px 0;
-}
 
 #hero .hero-img {
     text-align: center;
@@ -45,22 +64,25 @@
 
 
 
-.section1, h2 {
+.section1,
+h2 {
     margin-bottom: 1rem;
     margin-top: 2rem;
- 
+
     margin-left: 2rem;
- 
+    font-weight: bold;
+
 }
 
 #section2 {
     margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    color: rgb(145, 65, 0);
+    
     text-align: center;
     /*background-color: rgb(255, 241, 235);*/
 }
+
 .text-content {
     margin-top: 0rem;
     margin-left: 1rem;
@@ -68,10 +90,11 @@
     text-align: justify;
     text-align: center;
 }
+
 .carousel {
-    background-color: rgb(255, 236, 228);
+   
     font-style: oblique;
-    font-size: 3vh;
+    font-size: 2rem;
 }
 
 /* Recognise the signs containers */
@@ -86,7 +109,8 @@
 }
 
 .sign {
-    border: 5px solid rgb(255, 73, 1);
+    border: 5px solid #003b2a;
+    background-color: #e0fdf5;
     height: 500px;
     width: 300px;
     border-radius: 30px 0 30px 0;
@@ -100,16 +124,22 @@ ul {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #003b2a;
+}
+
+
+i {
+    font-size: 3rem;
+    color: #8a8ab3;
 }
 
 .resources a:hover {
-   
-    font-size: 3rem;
+
+    font-size: 2rem;
 }
 
 .resources col:hover {
-   background-color: aliceblue;  
+    background-color: aliceblue;
 }
 
 /* Form container */
@@ -117,27 +147,33 @@ a {
     margin-top: 1rem;
 }
 
+
+
 .form-container {
     width: 80%;
     margin: auto;
 }
 
 .footer {
-    background-color: #d38541;
-    color: #493e35;
+    background-color: #dafff4;
+    color: #003b2a;
     font-size: 2vh;
 }
 
-.footer span {
-    font-size: 4vh;
+.footer span  {
+    font-size: 1rem;
+    color: #db4b13;
 }
 
+.footer i {
+    font-size: 3rem;
+    color: #db4b13;
+   
+}
 /* Media queries */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 300px) {
-      
-}
+@media only screen and (min-width: 300px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -149,13 +185,8 @@ a {
 
     }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {}
 
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-
-}
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {}
