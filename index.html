@@ -26,13 +26,10 @@
 <body class="d-flex flex-column min-vh-100">
 
 </body> <!-- Navbar -->
-<nav id="navbar" class="navbar bg-body-tertiary">
+<nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html" title="Mind Your Mind home page" aria-label="Contact Us">Mind Your
             Mind</a>
-
-
-
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,36 +37,44 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link active"  href="#about-us" title="About Us" aria-label="Link to About Us">About</a>
+                </li>
+               
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Self Help</a>
+                    <a class="nav-link" href="#recognise-signs" title="Recognise Signs" aria-label="Link to Recognise Signs">Recognise Signs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Resources</a>
+                    <a class="nav-link" href="#self-help" title="Self Help" aria-label="Link to Self Help">Self Help</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link" title="Contact Us" aria-label="Contact Us">Contact
-                        Us</a>
+                    <a class="nav-link" href="#resources-link" title="Resources" aria-label="Link to Resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link" title="Contact Us" aria-label="Link to Contact Us (external page)" target="_blank" rel="noopener noreferrer">Contact Us</a>
+                  
+               
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<!-- Hero section -->
+
 <main>
     <!-- Hero section -->
-    <section id="hero" class="d-flex align-items-center" style="background: url('assets/images/pexel-image.jpg') no-repeat center center; background-size: cover; position: relative;">
-        <div style="background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
-        <div class="container" style="position: relative; z-index: 1;">
+    <section id="hero" class="d-flex align-items-center">
+        <div id="hero-overlay"></div>
+        <div class="container" id="hero-content">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <h1 class="text-white">Welcome to Mind Your Mind</h1>
                     <h2 class="text-white">Your journey to better mental health starts here</h2>
-                    <a href="contact.html" class="btn btn-primary mt-3" title="Contact Us" aria-label="Contact Us">Contact Us</a>
+                    <a href="contact.html" class="btn btn-primary mt-3" title="Contact Us"
+                    aria-label="Link to Contact Us (external page)" target="_blank" rel="noopener noreferrer">Contact Us</a>
                 </div>
                 <div class="col-lg-6 hero-img">
-                    <img src="assets/images/logo-500px.png" class="img-fluid" alt="Hero Image" title="Hero Image" aria-label="Hero Image">
+                    <img src="assets/images/logo-500px.png" class="img-fluid" alt="Hero Image" title="Hero Image"
+                        aria-label="Hero Image">
                 </div>
             </div>
             <!-- Bootstrap Grid for stats -->
@@ -78,10 +83,12 @@
                     <h3 class="text-white">YOU ARE NOT ALONE</h3>
                 </div>
                 <div class="col-6 text-center">
-                    <p class="text-white">In any given week, around 1 in 6 people report experiencing a common mental health problem, such as anxiety or depression.</p>
+                    <p class="text-white">In any given week, around 1 in 6 people report experiencing a common mental
+                        health problem, such as anxiety or depression.</p>
                 </div>
                 <div class="col-6 text-center">
-                    <p class="text-white">1 in 4 people will experience a mental health problem of some kind each year in England</p>
+                    <p class="text-white">1 in 4 people will experience a mental health problem of some kind each year
+                        in England</p>
                 </div>
             </div>
         </div>
@@ -90,7 +97,7 @@
 </main>
 <!-- About us Bootstrap grid -->
 <section id="section-1">
-
+<a id="about-us"></a>
     <div class="container text-center">
         <div class="row">
             <div class="col-12 col-md-6">
@@ -142,6 +149,8 @@
     </div>
 </section>
 <!-- Better Living -->
+<a id="recognise-signs"></a>
+
 <section id="section2">
 
     <h2>Recognise the signs</h2>
@@ -194,6 +203,7 @@
                 <li>Feeling overwhelmed</li>
                 <li>Constantly worrying</li>
                 <li>Being forgetful</li>
+            </ul>
         </div>
         <!-- container 2 -->
         <div class="sign">
@@ -209,7 +219,7 @@
                 <li>Drinking or smoking more</li>
         </div>
     </div>
-
+    <a id="self-help"></a>
     <h2>Tips for better living</h2>
 
     <!-- container 1 -->
@@ -232,7 +242,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <div id="tip-container">
 
@@ -277,7 +286,7 @@
 </section>
 
 <!-- Resources section -->
-
+<a id="resources-link"></a>
 <section id="section2">
 
     <div class="container">
@@ -307,29 +316,12 @@
                     style="background-color: #D2691E; height: 200px;">Box 3</div>
                 <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
                     style="background-color: #CD853F; height: 200px;">Box 4</div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
-                    style="background-color: #F4A460; height: 200px;">Box 5</div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
-                    style="background-color: #DEB887; height: 200px;">Box 6</div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
-                    style="background-color: #bd9172; height: 200px;">Box 7</div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
-                    style="background-color: #bd4209; height: 200px;">Box 8</div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
-                    style="background-color: #a17658; height: 200px;">Box 9</div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
-                    style="background-color: #946230; height: 200px;">Box 10</div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
-                    style="background-color: #57391f; height: 200px;">Box 11</div>
-                <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center"
-                    style="background-color: #DEB887; height: 200px;">Box 12</div>
             </div>
         </div>
-    </div>
 </section>
 <!-- Footer -->
 <footer>
-   <div class="container text-center footer">
+    <div class="container text-center footer">
         <div class="row">
             <div class="col-12">
                 2024 Mind Your Mind.
