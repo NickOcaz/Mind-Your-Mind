@@ -1,6 +1,4 @@
-body p {
-color:#083a1e;
-}
+
 /* CSS Reset */
 * {
     margin: 0;
@@ -16,10 +14,8 @@ color:#083a1e;
     text-align: center;
 }
 }
-#hero .hero-img img {
-    max-width: 100%;
-    height: auto; 
-}
+
+
 .logo-about {
     background-size: 300px 300px;
     background-repeat: no-repeat;
