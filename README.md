@@ -1,7 +1,7 @@
 ### Mind Your Mind 
 
- Project Banner
-
+![Project Banner](/assets/images/readme-images/banner.png)
+[Back to Top](#Top)
 
 ### Introduction
  Mind Your Mind**
@@ -11,10 +11,8 @@
 Welcome to Mind Your Mind, a thoughtfully designed web application focused on promoting mental well-being through accessible and beginner-friendly information. Our platform is dedicated to providing users with essential mental health resources, helping you recognize common issues, manage stress effectively, and access further support.
 
 
-*[link Live project available here](https://)*
+*[link Live project available here](https://nickocaz.github.io/Mind-Your-Mind/)*
 
-
-[Back to Top](#Top)
 
 ---
 ### UX Design
@@ -46,8 +44,6 @@ Welcome to Mind Your Mind, a thoughtfully designed web application focused on pr
 
 - As a user, I want the contact the page owner or further information.
 
-
-
 #### Develoment Goal
 - Hero Section with Positive Messaging.
 
@@ -70,11 +66,12 @@ Welcome to Mind Your Mind, a thoughtfully designed web application focused on pr
 [Back to Top](#Top)
 ---
 ### Cooperation with A.I.
-A.I. will be utilised throughout this project's development to enhance efficiency, accuracy, and innovation and also implemented if require to identify bugs and code aptomisation. Any suggestion provided by A.I. will be question for an explanation to gain a deeper understanding and learn from the offered information. All information obtained via A.I. will be scrutinised and cross referenced to ensure it's validity.
+A.I. will be utilised throughout this project's development to enhance efficiency, accuracy, and innovation and also implemented if require to identify bugs and code aptomisation. Any suggestion provided by A.I. will be question for an explanation to gain a deeper understanding and learn from the offered information. All information obtained via A.I. as been scrutinised and cross referenced to ensure it's validity.
 
-#### Aim for A.I. assistance
+#### A.I. Introduction for software development
 
-  It also helps in identifying and fixing bugs faster, improving the overall quality of the software. Additionally, AI-driven tools can analyze vast amounts of data to provide insights, optimize code, and predict potential issues, leading to more robust and scalable applications. Embracing AI in software development not only accelerates the development process but also opens up new possibilities for innovation and problem-solving.
+  A.I. helps identify and fixing bugs faster, improving the overall quality of the software. Additionally, AI-driven tools can analyze vast amounts of data to provide insights, optimize code, and predict potential issues, leading to more robust and scalable applications. Embracing AI in software development not only accelerates the development process but also opens up new possibilities for innovation and problem-solving.
+
 
 #### A.I. Goals
 
@@ -93,8 +90,6 @@ A.I. will be utilised throughout this project's development to enhance efficienc
 [Back to Top](#Top)
 ---
 ### Design
-
-[Back to Top](#Top)
 ---
 #### Wireframe design.
 ![Local Image](/assets/images/readme-images/wireframe.png "Local Image Title")
@@ -104,9 +99,17 @@ A.I. will be utilised throughout this project's development to enhance efficienc
 ---
 #### Colors
 
+The color palette for this project has been meticulously chosen to complement the logo, ensuring a cohesive and visually appealing design. The primary colors used in the logo are extended throughout the website to create a harmonious look and feel. By matching the website's color scheme to the logo, we establish a strong brand identity and enhance the overall user experience. The calming and supportive colors are intended to evoke a sense of peace and well-being, aligning perfectly with the project's mission to promote mental health awareness.
+
+[Color Palette](/assets/images/readme-images/pallete.png)
 [Back to Top](#Top)
 ---
 ### Fonts
+#### Subtle Font Change
+The font choice for this project has been carefully selected to ensure readability . By using a subtle font change, we aim to enhance the user experience without causing distraction. The primary font is chosen for its clean and modern look. This approach helps maintain a cohesive and professional appearance throughout the website.
+
+![fonts](/assets/images/readme-images/fonts.png)
+
 
 [Back to Top](#Top)
 ---
