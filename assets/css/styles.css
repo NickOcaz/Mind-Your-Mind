@@ -1,76 +1,43 @@
-/* css variables */
-
-colors {
-    primary: #083a1e;
-    quinary: #e7fcf0;
-    senary: #cffae2;
-   
-    tertiary: #522500;
-    quaternary: #a52a2a;
-    secondary: #e98400;
-    
-}
 body p {
 color:#083a1e;
 }
-
-:root {
-    --example-variable: value;
-}
-
 /* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 #hero {
     background: url('../images/pexels-image.webp') no-repeat center center;
     background-size: cover;
     position: relative;
     padding: 60px 0;
-
-
-
-
 #hero .hero-img {
     text-align: center;
-   
 }
 }
-
 #hero .hero-img img {
     max-width: 100%;
-    height: auto;
-    
+    height: auto; 
 }
-
 .logo-about {
     background-size: 300px 300px;
     background-repeat: no-repeat;
     width: 300px;
     height: 300px;
-
 }
-
-
-
 .section1, h1, h2, h3, p {
     margin-bottom: 1rem;
-    margin-top: 2rem;
- 
+    margin-top: 2rem; 
     margin-left: 2rem;
  color: #ff7300;
 }
-
 #section2 {
     margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
     color: rgb(145, 65, 0);
     text-align: center;
-    /*background-color: rgb(255, 241, 235);*/
 }
 #section3 {
     margin-top: 2rem;
@@ -78,7 +45,6 @@ color:#083a1e;
     margin-right: 2rem;
     color: rgb(145, 65, 0);
     text-align: center;
-    /*background-color: rgb(255, 241, 235);*/
 }
 .text-content {
     margin-top: 0rem;
@@ -92,7 +58,6 @@ color:#083a1e;
     font-style: oblique;
     font-size: 3vh;
 }
-
 /* Recognise the signs containers */
 #tip-container {
     display: flex;
@@ -101,10 +66,8 @@ color:#083a1e;
     gap: 3rem;
     margin-top: 2rem;
     margin-left: 5rem;
-    margin-right: 5rem;
-   
+    margin-right: 5rem;  
 }
-
 #tip-container2 {
     display: flex;
     flex-wrap: wrap;
@@ -113,9 +76,7 @@ color:#083a1e;
     margin-top: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
-   
 }
-
 .sign {
     border: 5px solid rgb(255, 73, 1);
     height: 500px;
@@ -124,71 +85,42 @@ color:#083a1e;
     color: #522500;
     background-color:#e7fcf0;
 }
-
 ul {
     list-style-type: none;
     padding-left: 0;
     margin-top: 2rem;
 }
-
 a {
     text-decoration: none;
     color: #ffffff;
 }
-
 .resources a:hover {
    
-    font-size: 3rem;
+    font-size: 2rem;
 }
-
 .resources col:hover {
    background-color: aliceblue;  
 }
-
 /* Form container */
 .sign h4 {
     margin-top: 1rem;
-}
-
+}S
 .form-container {
     width: 80%;
     margin: auto;
 }
-
 .footer {
     background-color: #d38541;
     color: #493e35;
     font-size: 2vh;
 }
-
 .footer span {
     font-size: 4vh;
 }
-
-/* Media queries */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 300px) {
-      
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
     @media (max-width: 768px) {
         #hero .hero-img {
             margin-top: 30px;
         }
-
     }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-
-}
